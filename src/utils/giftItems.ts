@@ -1,4 +1,4 @@
-import { Category, GiftItem } from '../types/gifts';
+import type { Category, GiftItem } from '../types/gifts';
 
 export const createGiftItems = (categories: Category[]): GiftItem[] =>
   categories.flatMap((category) =>
